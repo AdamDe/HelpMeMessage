@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Help Me Message</string>
+    <string name="title_activity_maps">Help Me Message</string>
+    <string name="google_maps_key">AIzaSyBVzfZ4dqf3eAyUvL5XZtYXRKzHUIjEsHU</string>
+</resources>
