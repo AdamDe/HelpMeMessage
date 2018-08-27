@@ -11,13 +11,15 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
 
-import helpmemessage.adamdekel.helpmemessage.R;
 
 /**
  * A styled map using JSON styles from a string resource.
  */
 public class MapsActivity extends AppCompatActivity
         implements OnMapReadyCallback {
+
+    
+
 
     private static final String TAG = MapsActivity.class.getSimpleName();
 
