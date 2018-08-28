@@ -23,4 +23,5 @@ public class ExampleInstrumentedTest {
 
         assertEquals("helpmemessage.adamdekel.helpmemessage", appContext.getPackageName());
     }
+
 }

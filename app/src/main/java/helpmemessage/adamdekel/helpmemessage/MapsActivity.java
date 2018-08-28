@@ -1,5 +1,6 @@
 package helpmemessage.adamdekel.helpmemessage;
 
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -12,14 +13,12 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
 
 
+
 /**
  * A styled map using JSON styles from a string resource.
  */
 public class MapsActivity extends AppCompatActivity
         implements OnMapReadyCallback {
-
-    
-
 
     private static final String TAG = MapsActivity.class.getSimpleName();
 
@@ -48,10 +47,11 @@ public class MapsActivity extends AppCompatActivity
         // in a string resource file. First create a MapStyleOptions object
         // from the JSON styles string, then pass this to the setMapStyle
         // method of the GoogleMap object.
-        boolean success = googleMap.setMapStyle(new MapStyleOptions(getResources()
-                .getString(R.string.map_style_json)));
 
-        if (!success) {
+        boolean success = googleMap.setMapStyle(new MapStyleOptions(getResources()));
+
+        if (!success)
+        {
             Log.e(TAG, "Style parsing failed.");
         }
         // Position the map's camera near Sydney, Australia.
