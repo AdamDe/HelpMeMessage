@@ -48,12 +48,7 @@ public class MapsActivity extends AppCompatActivity
         // from the JSON styles string, then pass this to the setMapStyle
         // method of the GoogleMap object.
 
-        boolean success = googleMap.setMapStyle(new MapStyleOptions(getResources()));
 
-        if (!success)
-        {
-            Log.e(TAG, "Style parsing failed.");
-        }
         // Position the map's camera near Sydney, Australia.
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(-34, 151)));
     }
